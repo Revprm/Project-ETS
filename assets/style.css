@@ -44,11 +44,11 @@ body{
 
 .btn{
     color: white;
-    background-color: #053B50;
+    background-color: #213555;
     transition: 0.4s;
     border-radius: 30px;
 }
 .btn:hover{
-    background-color: white;
+    background-color: #ADC4CE; 
     color: black;
 }

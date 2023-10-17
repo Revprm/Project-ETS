@@ -42,6 +42,7 @@ $(document).ready(function () {
       if (currentPage > 1) {
         currentPage--;
         showPage(currentPage);
+        scrollTo(top);
       }
     });
   
@@ -50,6 +51,7 @@ $(document).ready(function () {
       if (currentPage < maxPage) {
         currentPage++;
         showPage(currentPage);
+        scrollTo(top);
       }
     });
   });
